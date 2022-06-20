@@ -5,11 +5,10 @@ import { Router } from "solid-app-router";
 import App from "./App";
 
 render(
-  () => 
-    (
-      <Router>
-        <App />
-      </Router>
-    ),
+  () => (
+    <Router>
+      <App />
+    </Router>
+  ),
   document.getElementById("root") as HTMLElement
 );

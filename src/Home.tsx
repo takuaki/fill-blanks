@@ -1,7 +1,9 @@
+import { CharacterButton } from "./atoms/character-button";
+
 const HomeView = () => {
   return (
     <>
-      <h1>Hello</h1>
+      <CharacterButton character={"a"} />
     </>
   );
 };

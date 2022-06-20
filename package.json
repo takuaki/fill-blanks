@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "test": "vitest"
+    "test": "uvu -r solid-register"
   },
   "license": "MIT",
   "devDependencies": {
@@ -20,7 +20,11 @@
     "jsdom": "^19.0.0",
     "sass": "^1.52.3",
     "solid-app-router": "^0.4.1",
+    "solid-dom-testing": "^0.0.3",
     "solid-js": "^1.4.2",
+    "solid-register": "^0.2.5",
+    "solid-testing-library": "^0.3.0",
+    "uvu": "^0.5.3",
     "vitest": "^0.15.1"
   }
 }
